@@ -238,6 +238,10 @@ PRODUCT_PACKAGES += \
     libstagefright_softomx.vendor \
     libstagefright_softomx_plugin.vendor
 
+# Dolby VNDK libs
+PRODUCT_PACKAGES += \
+    libstagefright_foundation-v33
+    
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm-service.clearkey
