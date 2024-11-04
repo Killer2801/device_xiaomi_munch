@@ -16,6 +16,9 @@ $(call inherit-product-if-exists, vendor/xiaomi/miuicamera/miuicamera.mk)
 #Bcr
 $(call inherit-product-if-exists, vendor/bcr/bcr.mk)
 
+# Private key for signed build
+-include vendor/private-keys/keys/keys.mk
+
 # Permissions
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.audio.low_latency.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.audio.low_latency.xml \
