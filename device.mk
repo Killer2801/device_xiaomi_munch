@@ -424,6 +424,10 @@ endif
 PRODUCT_PACKAGES += \
     vendor.xiaomi.hardware.touchfeature@1.0.vendor
 
+# Updater
+PRODUCT_PACKAGES += \
+    Updater
+
 # USB
 PRODUCT_PACKAGES += \
     android.hardware.usb-service.qti
